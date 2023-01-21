@@ -7,7 +7,7 @@ main.py : Contains 2 API endpoints (root, channel)
 channel.py : JSON data for fast API server
 
 ### Instructions:
-1. Clone this folder/repo
+1. Clone this folder/repo : 46cf8ad
 2. Run : pip install fastapi
 3. Run : pip install pip install "uvicorn[standard]"
 4. Run uvicorn server:  uvicorn main:app --host 0.0.0.0 --port 8080 --reload
@@ -27,3 +27,13 @@ requirements.txt: for dependencies installation
 5. Open URL: http://0.0.0.0:8080/channels/jackherrington
 6. Open URL: http://0.0.0.0:8080/channels/someincorrectname
 
+# Part 3:
+We have code that runs on docker container locally without being live. In this part, we make add docker compose YAML file with reload command to rebuild the image if file is changed.
+
+requirements.txt : added wacthflies
+### Instructions:
+1. Clone ' '
+2. Build image via docker compose: docker-compose up --build
+3. Open URL: http://0.0.0.0:8080/
+4. Open URL: http://0.0.0.0:8080/channels/jackherrington
+5. Open URL: http://0.0.0.0:8080/channels/someincorrectname
