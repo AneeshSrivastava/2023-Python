@@ -7,7 +7,7 @@ main.py : Contains 2 API endpoints (root, channel)
 channel.py : JSON data for fast API server
 
 ### Instructions:
-1. Clone this folder/repo : 46cf8ad
+1. Clone and checkout this commit : git checkout 46cf8ad
 2. Run : pip install fastapi
 3. Run : pip install pip install "uvicorn[standard]"
 4. Run uvicorn server:  uvicorn main:app --host 0.0.0.0 --port 8080 --reload
@@ -20,7 +20,7 @@ Dockerfile : Code to build docker image
 requirements.txt: for dependencies installation
 
 ### Instructions:
-1. Clone ''
+1. Clone and checkout this commit : git checkout 4da7df7
 2. Build docker image by running :  docker build -t channel-api .
 3. Run docker image on container : docker run -d -p 8080:80 channel-api
 4. Open URL: http://0.0.0.0:8080/
@@ -32,7 +32,7 @@ We have code that runs on docker container locally without being live. In this p
 
 requirements.txt : added wacthflies
 ### Instructions:
-1. Clone ' '
+1. Clone and checkout this commit : git checkout 2196ab4
 2. Build image via docker compose: docker-compose up --build
 3. Open URL: http://0.0.0.0:8080/
 4. Open URL: http://0.0.0.0:8080/channels/jackherrington
