@@ -1,0 +1,103 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "how do you do?",
+                "hey",
+                "good day",
+                "greetings",
+                "What's up?"
+            ],
+            "responses": [
+                "Hello",
+                "Hey!",
+                "What can I do for you today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Have a Good day",
+                "bye",
+                "cao",
+                "see ya"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old",
+                "how old is Aneesh",
+                "what is your age",
+                "how old are you",
+                "age?"
+            ],
+            "responses": [
+                "My owner Aneesh is 23 years old!",
+                "21 years!"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?",
+                "who are you?",
+                "Can you tell me your name?"
+            ],
+            "responses": [
+                "You can call me Neural!",
+                "I'm Neural!",
+                "I'm Neural the assistant of Aneesh!"
+            ]
+        },
+        {
+            "tag": "shop",
+            "patterns": [
+                "Id like to buy something",
+                "what are your products?",
+                "what do you recommend?",
+                "What are you selling?"
+            ],
+            "responses": [
+                "I am bot, I don't sell anything"
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "when are you guys open",
+                "what are your hours",
+                "hours of operation"
+            ],
+            "responses": [
+                "24/7"
+            ]
+        },
+        {
+            "tag": "stocks",
+            "patterns": [
+                "what stocks do I own?",
+                "how are my shares?",
+                "what companies am I investing in?",
+                "what am I doing"
+            ],
+            "responses": [
+                "I don't know because I don't have access to your private data! I am a bot, not Facebook (-_-)"
+            ]
+        }
+    ]
+}
