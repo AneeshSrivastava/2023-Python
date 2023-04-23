@@ -1,7 +1,7 @@
 import asyncio
 import random
 from time import perf_counter
-
+# Adding a test comment
 async def get_vertical_id():
     print(f"Fetching vertical id..")
     vertical_id = random.randint(50,2000)
